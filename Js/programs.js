@@ -5,7 +5,7 @@ $("#entrar").click(function () {
 	if($("#usuario").val()=="Admin" && $("#contrasena").val()=='123'){
 		logueado=true;
 	 if (logueado==true) {
-			window.location="./Pages/Inicio.html"
+			window.location="./pages/Inicio.html"
 		}
 	}else{
 		swal.fire('Error');
