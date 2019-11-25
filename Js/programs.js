@@ -5,20 +5,20 @@ $("#entrar").click(function () {
 	if($("#usuario").val()=="Admin" && $("#contrasena").val()=='123'){
 		logueado=true;
 	 if (logueado==true) {
-			window.location="./pages/Inicio.html"
+			window.location="./Pages/Inicio.html"
 		}
 	}else{
 		swal.fire('Error');
 	}
 });
 $("#galeria").click(function(){
-	window.location ="../pages/galeria.html"
+	window.location ="../Pages/galeria.html"
 });
 $("#pdf").click(function(){
-	window.location ="../pages/pdfs.html"
+	window.location ="../Pages/pdfs.html"
 });
 $("#prueba").click(function(){
-	window.location ="../pages/prueba.html"
+	window.location ="../Pages/prueba.html"
 });
 
 $("#salir").click(function(){
